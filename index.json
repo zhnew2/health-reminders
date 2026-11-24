@@ -27,8 +27,8 @@
       "versions": [
         {
           "version": "1.2.0",
-          "publishTimestamp": 1795522964,
-          "source": { "type": "git", "url": "https://github.com/zhnew2/health-reminders", "commit": "fabb1ff41ef20a3b5d549ed6e70fc221dd2855a9" },
+          "publishTimestamp": 1795525185,
+          "source": { "type": "git", "url": "https://github.com/zhnew2/health-reminders", "commit": "2a1701d4b43f7989f6e8e5d4485e294e3d396ed4" },
           "engines": { "dsh": ">=0.2.0 <0.3.0" }
         }
       ]
