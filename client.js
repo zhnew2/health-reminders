@@ -57,7 +57,17 @@ window.__ModuleLoader__.load({
         for (const r of REMINDERS) {
           timers.push(setInterval(() => fire(r), r.everyMs));
         }
+        // 自检：加载后 ~2.5s 弹一次确认，便于验证弹窗可用
+        const selfTest = setTimeout(() => {
+          setToast({
+            title: '✅ 健康提醒已开启',
+            body: '每 60 分钟提醒喝水、每 30 分钟提醒站立。',
+          });
+          if (dismissTimer) clearTimeout(dismissTimer);
+          dismissTimer = setTimeout(() => setToast(null), 8000);
+        }, 2500);
         return () => {
+          clearTimeout(selfTest);
           for (const t of timers) clearInterval(t);
           if (dismissTimer) clearTimeout(dismissTimer);
         };
