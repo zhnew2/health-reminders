@@ -1,6 +1,6 @@
 {
   "name": "@zhnew2/health-reminders",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "description": "久坐健康提醒：按固定健康间隔定时提醒喝水与起身站立，安装即默认开启，带弹窗提醒。",
   "engines": { "dsh": ">=0.2.0 <0.3.0" },
