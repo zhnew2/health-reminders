@@ -15,7 +15,7 @@
         "en": "Periodic reminders to drink water and stand up, enabled by default.",
         "zh": "定时提醒喝水与起身站立，安装即默认开启。"
       },
-      "icon": "icons/health.svg",
+      "icon": "icon.svg",
       "author": "zhnew2",
       "repository": { "url": "https://github.com/zhnew2/health-reminders" },
       "metadata": {
