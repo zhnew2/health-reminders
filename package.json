@@ -1,0 +1,18 @@
+{
+  "name": "@zhnew2/health-reminders",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "久坐健康提醒：按固定健康间隔定时提醒喝水与起身站立，安装即默认开启。",
+  "engines": { "dsh": ">=0.2.0 <0.3.0" },
+  "keywords": ["deepseek", "harness", "dsh", "dsh-plugin", "health", "reminder", "hydration", "sedentary"],
+  "author": "zhnew2",
+  "homepage": "https://github.com/zhnew2/health-reminders",
+  "repository": { "type": "git", "url": "git+https://github.com/zhnew2/health-reminders.git" },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

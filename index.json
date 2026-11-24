@@ -1,0 +1,37 @@
+{
+  "format": 1,
+  "title": { "en": "Health reminders", "zh": "健康提醒" },
+  "description": { "en": "Sedentary-friendly water and stand-up reminders", "zh": "久坐友好的喝水与站立提醒" },
+  "metadata": {
+    "categories": { "health": { "title": { "en": "Health", "zh": "健康" } } },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@zhnew2/health-reminders",
+      "title": { "en": "Health reminders", "zh": "健康提醒" },
+      "description": {
+        "en": "Periodic reminders to drink water and stand up, enabled by default.",
+        "zh": "定时提醒喝水与起身站立，安装即默认开启。"
+      },
+      "icon": "icons/health.svg",
+      "author": "zhnew2",
+      "repository": { "url": "https://github.com/zhnew2/health-reminders" },
+      "metadata": {
+        "category": "health",
+        "labels": [],
+        "keywords": ["health", "reminder", "hydration", "sedentary"],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1769572800,
+          "source": { "type": "git", "url": "https://github.com/zhnew2/health-reminders", "commit": "0000000000000000000000000000000000000000" },
+          "engines": { "dsh": ">=0.2.0 <0.3.0" }
+        }
+      ]
+    }
+  ]
+}

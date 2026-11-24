@@ -1,0 +1,4 @@
+- insert:
+    - id: health-reminders
+      name: '@zhnew2/health-reminders'
+      config: {}
